@@ -3,12 +3,6 @@
 Auto-format **Python** when you paste into a fenced block that declares Python (```python, ```py, ```python3).
 It formats the *entire* code block after the paste using **Ruff** (`ruff format`) or **Black**.
 
-<p align="left">
-  <a href="https://buymeacoffee.com/onardin">
-    <img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=flat&logo=buymeacoffee&logoColor=000&labelColor=FFDD00&color=FFDD00" alt="Buy Me A Coffee">
-  </a>
-</p>
-
 ## Motivation
 Obsidian did not have a code styling plugin that supported auto-formatting for Python code. This specific solution redresses that.
 
@@ -49,7 +43,11 @@ Obsidian did not have a code styling plugin that supported auto-formatting for P
 ## Support
 If this plugin saves you time, you can support development here:
 
-**👉 [Buy me a coffee](https://buymeacoffee.com/onardin)**
+<p align="left">
+  <a href="https://buymeacoffee.com/onardin">
+    <img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=flat&logo=buymeacoffee&logoColor=000&labelColor=FFDD00&color=FFDD00" alt="Buy Me A Coffee">
+  </a>
+</p>
 
 ## License
 MIT
