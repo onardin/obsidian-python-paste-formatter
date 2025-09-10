@@ -3,6 +3,20 @@
 Auto-format **Python** when you paste into a fenced block that declares Python (```python, ```py, ```python3).
 It formats the *entire* code block after the paste using **Ruff** (`ruff format`) or **Black**.
 
+## Motivation
+Obsidian did not have a code styling plugin that supported auto-formatting for Python code. This specific solution redresses that.
+
+
+### Before using Python Paste Formatter:
+<p align="center">
+  <img src="assets/before.gif" alt="Before using Python Paste Formatter" width="900">
+</p>
+
+### After using Python Paste Formatter:
+<p align="center">
+  <img src="assets/after.gif" alt="After using Python Paste Formatter" width="900">
+</p>
+
 ## Features
 - Triggered only when the cursor is inside a fenced code block and the opening fence declares Python.
 - Formats the whole fenced block after paste to avoid parse errors on partial snippets.
@@ -11,14 +25,6 @@ It formats the *entire* code block after the paste using **Ruff** (`ruff format`
 
 ## Requirements
 - Either `ruff` (recommended) or `black` must be available on your system PATH, or set explicit paths in settings.
-
-## Install (development)
-```bash
-npm i
-npm run build
-# Copy manifest.json, main.js, styles.css to your vault:
-# .obsidian/plugins/python-paste-formatter/
-```
 
 ## Usage
 - Paste inside a ```python fenced block. The plugin reconstructs the entire block, formats via stdin, and replaces the block.
