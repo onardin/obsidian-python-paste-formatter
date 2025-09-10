@@ -1,0 +1,5 @@
+node_modules/
+main.js
+dist/
+*.zip
+.DS_Store
