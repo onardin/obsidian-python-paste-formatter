@@ -1,7 +1,7 @@
 {
   "id": "python-paste-formatter",
   "name": "Python Paste Formatter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "minAppVersion": "1.6.0",
   "description": "Auto-format Python code on paste inside fenced code blocks (```python) using Ruff or Black.",
   "author": "Oliviero Nardin",

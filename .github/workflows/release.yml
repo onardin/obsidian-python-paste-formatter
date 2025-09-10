@@ -42,7 +42,6 @@ jobs:
           files: |
             manifest.json
             main.js
-            styles.css
             python-paste-formatter-${{ github.ref_name }}.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
