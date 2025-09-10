@@ -5,6 +5,6 @@
   "minAppVersion": "1.6.0",
   "description": "Auto-format Python code on paste inside fenced code blocks (```python) using Ruff or Black.",
   "author": "Oliviero Nardin",
-  "authorUrl": "https://github.com/olivieronardin",
+  "authorUrl": "https://github.com/onardin",
   "isDesktopOnly": true
 }
