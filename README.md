@@ -28,15 +28,6 @@ npm run build
   - **Line length**
   - **Scope**: Whole block (safe) or only pasted snippet
 
-## Releasing
-1. Bump `version` in `manifest.json` and `package.json`.  
-2. Update `versions.json` with `"x.y.z": "min-obsidian-version"`.
-3. Build: `npm run build` (generates `main.js`).
-4. Create a GitHub Release **tagged with the exact version number** (no `v` prefix) and upload **`manifest.json`**, **`main.js`**, and **`styles.css`** as assets.
-5. Submit your plugin to the community list (see below).
-
-**Note**: Obsidian installs files from your GitHub release assets; the `manifest.json` in the repo is used to detect latest version.
-
 ## Submit to Community Plugins
 - Fork and open a PR to [`obsidianmd/obsidian-releases`](https://github.com/obsidianmd/obsidian-releases).
 - Add your repo to `community-plugins.json` and follow the PR checklist.
