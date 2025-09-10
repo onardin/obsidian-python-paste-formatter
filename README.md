@@ -5,7 +5,7 @@ It formats the *entire* code block after the paste using **Ruff** (`ruff format`
 
 <p align="left">
   <a href="https://buymeacoffee.com/onardin">
-    <img src="https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=YOUR_ID&button_colour=FFDD00&font_colour=000000&font_family=Inter&outline_colour=000000&coffee_colour=ffffff" alt="Buy Me A Coffee">
+    <img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=flat&logo=buymeacoffee&logoColor=000&labelColor=FFDD00&color=FFDD00" alt="Buy Me A Coffee">
   </a>
 </p>
 
