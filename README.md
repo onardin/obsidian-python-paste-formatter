@@ -6,9 +6,10 @@ It formats the *entire* code block after the paste using **Ruff** (`ruff format`
 ## Motivation
 Obsidian did not have a code styling plugin that supported auto-formatting for Python code. This specific solution redresses that.
 
-![Before using Python Paste Formatter:](assets/before.gif)
-
-![After using Python Paste Formatter:](assets/after.gif)
+<p align="center">
+  <img src="assets/before.gif" alt="Before: unformatted paste" width="47%">
+  <img src="assets/after.gif"  alt="After: auto-formatted on paste" width="47%">
+</p>
 
 ## Features
 - Triggered only when the cursor is inside a fenced code block and the opening fence declares Python.
