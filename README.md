@@ -33,13 +33,6 @@ Obsidian did not have a code styling plugin that supported auto-formatting for P
   - **Line length**
   - **Scope**: Whole block (safe) or only pasted snippet
 
-## Submit to Community Plugins
-- Fork and open a PR to [`obsidianmd/obsidian-releases`](https://github.com/obsidianmd/obsidian-releases).
-- Add your repo to `community-plugins.json` and follow the PR checklist.
-- Docs: Manifest fields and versions mapping:
-  - https://docs.obsidian.md/Reference/Manifest
-  - https://docs.obsidian.md/Reference/Versions
- 
 ## Support
 If this plugin saves you time, you can support development here:
 
